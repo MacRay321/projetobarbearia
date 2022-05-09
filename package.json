@@ -1,0 +1,14 @@
+{
+  "name": "barbearia",
+  "version": "1.0.0",
+  "description": "Projeto para entrega e avaliação de novo funcionario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brenno, Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "vanilla-tilt": "^1.7.2"
+  }
+}

@@ -1,0 +1,37 @@
+@import url("./header.css");
+@import url("./aboutUS.css");
+@import url("./services.css");
+@import url("./profissionais.css");
+@import url("./footer.css");
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+
+    background-color: #171717;
+    width: -1;
+    position: relative;
+
+}
+
+a, a:link, a:visited{
+
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+li{
+
+    display: inline-block;
+
+}
+

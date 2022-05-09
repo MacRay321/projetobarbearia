@@ -1,0 +1,270 @@
+#header{
+
+    height: 100vh;
+    background-image: url(../imagens/reis-26-1_DAlXy0wng-unsplash.png);
+    background-position: center;
+    background-size: cover;
+    width: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header nav{
+
+    position: fixed;
+    top: 5vh;
+    background-color: #262626;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    z-index: 5;
+    transition: 0.2s linear;
+
+}
+
+#header nav > span{
+
+    background-color: #c59c70;
+    border-radius: 50%;
+
+}
+
+#header nav span img{
+
+    height: 50%;
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+#header nav li{
+
+    margin-left: 2rem;
+
+}
+
+#header nav li a{
+
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+
+#header nav li span{
+
+    color: #c59c70;
+
+}
+
+#sectionHeader{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 10vh;
+
+}
+
+#sectionHeader > div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    animation: animate 1s linear forwards;
+
+}
+
+#sectionHeader > div p,h1,h2{
+
+    color: white;
+
+}
+
+#sectionHeader > div h2{
+
+    font-size: 3rem;
+
+}
+
+#sectionHeader > div h1{
+
+    font-size: 3.5rem;
+
+}
+
+#sectionHeader > div h1{
+
+    color: #c59c70;
+
+}
+
+#sectionHeader > div a{
+
+    font-size: 2rem;
+    background-color: #9A5237;
+    color: white;
+    padding: 1rem;
+    border-radius: 2px;
+
+}
+
+#sectionHeader > div p span{
+
+    color: #c59c70;
+
+}
+
+@keyframes animate{
+
+    from{opacity: 0};
+    to{opacity: 1};
+
+}
+
+#btnMobile{
+
+    width: 100px;
+    height: 50px;
+    display: none;
+    z-index: 6;
+
+}
+
+#btnMobile > div{
+
+    width: 50%;
+    height: 0px;
+    margin-bottom: 0.5rem;
+    border-bottom: 10px solid #9A5237;
+
+}
+
+@media(max-width: 1000px){
+
+    #header nav{
+
+        top: 0px;
+        width: 100%;
+        border-radius: 0px;
+        height: 0px;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    #header nav ul{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #header nav ul li{
+
+        margin-bottom: 2vh;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    #header nav span{
+
+        padding: 1rem;
+
+    }
+
+    #header nav span img{
+
+        width: 10rem;
+        height: auto;
+
+    }
+
+    #btnMobile{
+
+        display: block;
+        position: fixed;
+        top: 0.5rem;
+        right: 0.1rem;
+
+    }
+
+    #sectionHeader{
+
+        padding-top: 0px;
+
+    }
+
+}
+
+@media(max-width: 700px){
+
+    #sectionHeader > div h1{
+
+        font-size: 3rem;
+
+    }
+
+    #sectionHeader > div h2{
+
+        font-size: 2rem;
+
+    }
+
+}
+
+@media(max-width: 350px){
+
+    #header nav span img{
+
+        width: 5rem;
+        height: auto;
+
+    }
+
+}
+
+@media(max-width: 480px){
+
+    #sectionHeader > div a{
+
+        font-size: 1rem;
+
+    }
+
+    #sectionHeader > div h1,h2{
+
+        font-size: 2rem;
+
+    }
+
+    #sectionHeader > div h1{
+
+        font-size: 2.5rem;
+
+    }
+
+}
